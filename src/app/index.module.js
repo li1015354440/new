@@ -3,5 +3,4 @@
 
   angular
     .module('new', ['ui.router', 'ui.bootstrap', 'toastr']);
-
 })();
