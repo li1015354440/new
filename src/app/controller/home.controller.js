@@ -1,6 +1,6 @@
 angular.module('new').controller('homeCtrl', function ($http) {
   $http.post(
-    "10.115.19.223:8091/api/account/login",
+    "http//:10.115.19.223:8091/api/account/login",
     {"user_name": "lilei", "password": 123456}
   ).then(
     function (data) {
